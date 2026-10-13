@@ -45,164 +45,218 @@ html{scroll-behavior:smooth}
 
 <section id="mundo" aria-label="Recorrido por la misión" data-sw-track="" style="position: relative; height: 7550px;">
 <div style="position: absolute; inset: 0; z-index: 1;">
-<div id="sw-stage" style="position: sticky; top: 0; height: 100vh; max-height: 900px; min-height: 560px; overflow: hidden; background: #DDE6D6;">
+<div id="sw-stage" style="position: sticky; top: 0; height: 100vh; max-height: 900px; min-height: 560px; overflow: hidden; background: #EDEFF5;">
 <div id="sw-plane" style="position: absolute; left: 0; top: 0; width: 3000px; height: 1800px; transform-origin: 0 0; will-change: transform; transform: translate3d(70px, 72px, 0) scale(.42);">
-<div style="width: 3000px; height: 1800px; position: relative; overflow: hidden; background: #DDE6D6;">
+<div style="width: 3000px; height: 1800px; position: relative; overflow: hidden; background: #EDEFF5;">
 <svg width="3000" height="1800" viewBox="0 0 3000 1800" aria-hidden="true" style="display: block;">
 <defs>
 <pattern id="dots" width="44" height="44" patternUnits="userSpaceOnUse">
-<circle cx="4" cy="4" r="1.8" fill="#CAD6C2"></circle>
+<circle cx="4" cy="4" r="1.8" fill="#D9DDE8"></circle>
 </pattern>
 <g id="island">
-<ellipse cx="0" cy="196" rx="250" ry="38" fill="#1F2A2E" opacity=".08"></ellipse>
-<polygon points="-260,0 0,130 0,176 -260,46" fill="#B07A4F"></polygon>
-<polygon points="0,130 260,0 260,46 0,176" fill="#8E5E3C"></polygon>
-<polyline points="-260,24 0,154 260,24" fill="none" stroke="#6E4630" stroke-width="3" opacity=".35"></polyline>
-<polygon points="0,-130 260,0 0,130 -260,0" fill="#A3C98F"></polygon>
-<polygon points="0,-116 232,0 0,116 -232,0" fill="#B4D49F" opacity=".55"></polygon>
+<ellipse cx="0" cy="196" rx="250" ry="38" fill="#414042" opacity=".08"></ellipse>
+<polygon points="-260,0 0,130 0,176 -260,46" fill="#9C89BC"></polygon>
+<polygon points="0,130 260,0 260,46 0,176" fill="#7D69A0"></polygon>
+<polyline points="-260,24 0,154 260,24" fill="none" stroke="#5E4C80" stroke-width="3" opacity=".35"></polyline>
+<polygon points="0,-130 260,0 0,130 -260,0" fill="#8ED1AA"></polygon>
+<polygon points="0,-116 232,0 0,116 -232,0" fill="#A9DEBF" opacity=".6"></polygon>
 </g>
 <g id="tree">
-<ellipse cx="0" cy="0" rx="16" ry="6" fill="#1F2A2E" opacity=".14"></ellipse>
-<rect x="-3" y="-22" width="6" height="22" fill="#7A4E32"></rect>
-<circle cx="0" cy="-36" r="18" fill="#5E9A62"></circle>
-<circle cx="-7" cy="-42" r="9" fill="#7DB67F"></circle>
+<ellipse cx="0" cy="0" rx="16" ry="6" fill="#414042" opacity=".14"></ellipse>
+<rect x="-3" y="-22" width="6" height="22" fill="#6E5A50"></rect>
+<g>
+<circle cx="0" cy="-36" r="18" fill="#3E9E70"></circle>
+<circle cx="-7" cy="-42" r="9" fill="#5DBF8B"></circle>
+<animateTransform attributeName="transform" type="rotate" values="-3 0 -20; 3 0 -20; -3 0 -20" dur="5s" repeatCount="indefinite"></animateTransform>
+</g>
+</g>
+<g id="tree2">
+<ellipse cx="0" cy="0" rx="16" ry="6" fill="#414042" opacity=".14"></ellipse>
+<rect x="-3" y="-22" width="6" height="22" fill="#6E5A50"></rect>
+<g>
+<circle cx="0" cy="-36" r="18" fill="#3E9E70"></circle>
+<circle cx="-7" cy="-42" r="9" fill="#5DBF8B"></circle>
+<animateTransform attributeName="transform" type="rotate" values="2 0 -20; -3 0 -20; 2 0 -20" dur="4.2s" begin="-1.6s" repeatCount="indefinite"></animateTransform>
+</g>
 </g>
 <g id="pine">
-<ellipse cx="0" cy="0" rx="10" ry="4" fill="#1F2A2E" opacity=".14"></ellipse>
-<rect x="-2" y="-10" width="4" height="10" fill="#6B4430"></rect>
-<polygon points="0,-50 -13,-10 13,-10" fill="#3F7A5A"></polygon>
-<polygon points="0,-50 0,-10 13,-10" fill="#346A4D"></polygon>
+<ellipse cx="0" cy="0" rx="10" ry="4" fill="#414042" opacity=".14"></ellipse>
+<rect x="-2" y="-10" width="4" height="10" fill="#5E4C44"></rect>
+<g>
+<polygon points="0,-50 -13,-10 13,-10" fill="#2F8665"></polygon>
+<polygon points="0,-50 0,-10 13,-10" fill="#256F53"></polygon>
+<animateTransform attributeName="transform" type="rotate" values="-2 0 -10; 2 0 -10; -2 0 -10" dur="4.6s" repeatCount="indefinite"></animateTransform>
+</g>
 </g>
 <g id="mtn">
-<polygon points="-90,0 0,-150 90,0" fill="#9AA7B1"></polygon>
-<polygon points="0,-150 90,0 0,0" fill="#7F8D99"></polygon>
-<polygon points="-24,-110 0,-150 24,-110 10,-116 0,-106 -10,-116" fill="#F7F7F2"></polygon>
+<polygon points="-90,0 0,-150 90,0" fill="#B3ADC8"></polygon>
+<polygon points="0,-150 90,0 0,0" fill="#948DAE"></polygon>
+<polygon points="-24,-110 0,-150 24,-110 10,-116 0,-106 -10,-116" fill="#FFFFFF"></polygon>
 </g>
 <g id="house">
-<ellipse cx="0" cy="-2" rx="48" ry="16" fill="#1F2A2E" opacity=".12"></ellipse>
-<polygon points="-40,-56 0,-76 0,-90" fill="#8F3E26"></polygon>
-<polygon points="40,-56 0,-76 0,-90" fill="#8F3E26"></polygon>
-<polygon points="0,0 -40,-20 -40,-56 0,-36" fill="#F2EADB"></polygon>
-<polygon points="0,0 40,-20 40,-56 0,-36" fill="#D8C8AC"></polygon>
-<polygon points="12,-6 24,-12 24,-34 12,-28" fill="#7A4E32"></polygon>
-<polygon points="-28,-26 -14,-19 -14,-33 -28,-40" fill="#8FC3D6"></polygon>
-<polygon points="0,-36 -40,-56 0,-90" fill="#D2643F"></polygon>
-<polygon points="0,-36 40,-56 0,-90" fill="#A84B2E"></polygon>
+<ellipse cx="0" cy="-2" rx="48" ry="16" fill="#414042" opacity=".12"></ellipse>
+<polygon points="-40,-56 0,-76 0,-90" fill="#2C7F96"></polygon>
+<polygon points="40,-56 0,-76 0,-90" fill="#2C7F96"></polygon>
+<polygon points="0,0 -40,-20 -40,-56 0,-36" fill="#FFFFFF"></polygon>
+<polygon points="0,0 40,-20 40,-56 0,-36" fill="#E4DFEC"></polygon>
+<polygon points="12,-6 24,-12 24,-34 12,-28" fill="#695683"></polygon>
+<polygon points="-28,-26 -14,-19 -14,-33 -28,-40" fill="#F4C766"></polygon>
+<polygon points="0,-36 -40,-56 0,-90" fill="#50B8D4"></polygon>
+<polygon points="0,-36 40,-56 0,-90" fill="#3797B2"></polygon>
 </g>
 <g id="church">
-<ellipse cx="14" cy="-8" rx="70" ry="24" fill="#1F2A2E" opacity=".12"></ellipse>
-<polygon points="-34,-67 26,-97 43,-112.5 -17,-82.5" style="fill: var(--roofShade, #8F3E26)"></polygon>
-<polygon points="0,0 -34,-17 -34,-67 -17,-82.5 0,-50" style="fill: var(--wall, #F6F0E4)"></polygon>
-<polygon points="0,0 60,-30 60,-80 0,-50" style="fill: var(--wallShade, #DCCDB2)"></polygon>
-<polygon points="0,-50 60,-80 43,-112.5 -17,-82.5" style="fill: var(--roof, #C2553A)"></polygon>
-<polygon points="-13,-6.5 -21,-10.5 -21,-34.5 -13,-30.5" fill="#6B4430"></polygon>
-<ellipse cx="-17" cy="-64" rx="4" ry="5" fill="#E2A93B"></ellipse>
-<polygon points="15,-21.5 21,-24.5 21,-42.5 15,-39.5" fill="#8FC3D6"></polygon>
-<polygon points="30,-29 36,-32 36,-50 30,-47" fill="#8FC3D6"></polygon>
-<polygon points="45,-36.5 51,-39.5 51,-57.5 45,-54.5" fill="#8FC3D6"></polygon>
-<rect x="-18.5" y="-106" width="3" height="24" fill="#E2A93B"></rect>
-<rect x="-24" y="-99" width="14" height="3" fill="#E2A93B"></rect>
+<ellipse cx="14" cy="-8" rx="70" ry="24" fill="#414042" opacity=".12"></ellipse>
+<polygon points="-34,-67 26,-97 43,-112.5 -17,-82.5" style="fill: var(--roofShade, #5B4A78)"></polygon>
+<polygon points="0,0 -34,-17 -34,-67 -17,-82.5 0,-50" style="fill: var(--wall, #FFFFFF)"></polygon>
+<polygon points="0,0 60,-30 60,-80 0,-50" style="fill: var(--wallShade, #E4DFEC)"></polygon>
+<polygon points="0,-50 60,-80 43,-112.5 -17,-82.5" style="fill: var(--roof, #836AA3)"></polygon>
+<polygon points="-13,-6.5 -21,-10.5 -21,-34.5 -13,-30.5" fill="#5E4C44"></polygon>
+<ellipse cx="-17" cy="-64" rx="4" ry="5" fill="#F4B942">
+<animate attributeName="opacity" values="1;.55;1" dur="3s" repeatCount="indefinite"></animate>
+</ellipse>
+<polygon points="15,-21.5 21,-24.5 21,-42.5 15,-39.5" fill="#8FD3E6"></polygon>
+<polygon points="30,-29 36,-32 36,-50 30,-47" fill="#8FD3E6"></polygon>
+<polygon points="45,-36.5 51,-39.5 51,-57.5 45,-54.5" fill="#8FD3E6"></polygon>
+<rect x="-18.5" y="-106" width="3" height="24" fill="#F4B942"></rect>
+<rect x="-24" y="-99" width="14" height="3" fill="#F4B942"></rect>
 </g>
 <g id="school">
-<ellipse cx="30" cy="-18" rx="80" ry="26" fill="#1F2A2E" opacity=".12"></ellipse>
-<polygon points="0,0 -30,-15 -30,-49 0,-34" fill="#F4EAD6"></polygon>
-<polygon points="0,0 90,-45 90,-79 0,-34" fill="#DCCBAA"></polygon>
-<polygon points="0,-34 -30,-49 60,-94 90,-79" fill="#6F9DB0"></polygon>
-<polygon points="12,-16 22,-21 22,-35 12,-30" fill="#8FC3D6"></polygon>
-<polygon points="32,-26 42,-31 42,-45 32,-40" fill="#8FC3D6"></polygon>
-<polygon points="52,-36 62,-41 62,-55 52,-50" fill="#8FC3D6"></polygon>
-<polygon points="72,-46 82,-51 82,-65 72,-60" fill="#8FC3D6"></polygon>
-<polygon points="-10,-5 -20,-10 -20,-32 -10,-27" fill="#B23A48"></polygon>
-<line x1="-15" y1="-56" x2="-15" y2="-102" stroke="#55514C" stroke-width="2"></line>
-<polygon points="-15,-102 6,-96 -15,-90" fill="#E2A93B"></polygon>
+<ellipse cx="30" cy="-18" rx="80" ry="26" fill="#414042" opacity=".12"></ellipse>
+<polygon points="0,0 -30,-15 -30,-49 0,-34" fill="#FFFFFF"></polygon>
+<polygon points="0,0 90,-45 90,-79 0,-34" fill="#E4DFEC"></polygon>
+<polygon points="0,-34 -30,-49 60,-94 90,-79" fill="#5DBF8B"></polygon>
+<polygon points="12,-16 22,-21 22,-35 12,-30" fill="#8FD3E6"></polygon>
+<polygon points="32,-26 42,-31 42,-45 32,-40" fill="#8FD3E6"></polygon>
+<polygon points="52,-36 62,-41 62,-55 52,-50" fill="#8FD3E6"></polygon>
+<polygon points="72,-46 82,-51 82,-65 72,-60" fill="#8FD3E6"></polygon>
+<polygon points="-10,-5 -20,-10 -20,-32 -10,-27" fill="#836AA3"></polygon>
+<line x1="-15" y1="-56" x2="-15" y2="-102" stroke="#414042" stroke-width="2"></line>
+<g transform="translate(-15,-96)">
+<polygon points="0,-6 22,0 0,6" fill="#F4B942">
+<animateTransform attributeName="transform" type="scale" values="1,1; .78,1.08; 1,1" dur="1.2s" repeatCount="indefinite"></animateTransform>
+</polygon>
+</g>
 </g>
 <g id="van">
-<ellipse cx="18" cy="-14" rx="44" ry="14" fill="#1F2A2E" opacity=".14"></ellipse>
-<polygon points="0,-6 -22,-17 -22,-41 0,-30" style="fill: var(--body, #E2A93B)"></polygon>
-<polygon points="0,-6 56,-34 56,-58 0,-30" style="fill: var(--bodyShade, #C98F25)"></polygon>
-<polygon points="0,-30 -22,-41 34,-69 56,-58" style="fill: var(--bodyTop, #F0C463)"></polygon>
-<polygon points="8,-22 48,-42 48,-50 8,-30" fill="#8FC3D6"></polygon>
-<polygon points="-4,-20 -18,-27 -18,-35 -4,-28" fill="#8FC3D6"></polygon>
+<ellipse cx="18" cy="-14" rx="44" ry="14" fill="#414042" opacity=".14"></ellipse>
+<polygon points="0,-6 -22,-17 -22,-41 0,-30" style="fill: var(--body, #836AA3)"></polygon>
+<polygon points="0,-6 56,-34 56,-58 0,-30" style="fill: var(--bodyShade, #695683)"></polygon>
+<polygon points="0,-30 -22,-41 34,-69 56,-58" style="fill: var(--bodyTop, #9D87BD)"></polygon>
+<polygon points="8,-22 48,-42 48,-50 8,-30" fill="#B5E3EF"></polygon>
+<polygon points="-4,-20 -18,-27 -18,-35 -4,-28" fill="#B5E3EF"></polygon>
 <ellipse cx="10" cy="-12" rx="5" ry="6" fill="#2B2B2B"></ellipse>
 <ellipse cx="44" cy="-29" rx="5" ry="6" fill="#2B2B2B"></ellipse>
 <ellipse cx="-14" cy="-13" rx="4" ry="5" fill="#2B2B2B"></ellipse>
 </g>
 <g id="p">
-<ellipse cx="0" cy="0" rx="7" ry="3" fill="#1F2A2E" opacity=".16"></ellipse>
+<ellipse cx="0" cy="0" rx="7" ry="3" fill="#414042" opacity=".16"></ellipse>
+<g>
 <rect x="-5" y="-19" width="10" height="17" rx="5" fill="currentColor"></rect>
-<circle cx="0" cy="-24" r="5" fill="#9C6644"></circle>
-<path d="M-5,-25 a5,5 0 0 1 10,0 z" fill="#2C2018"></path>
+<circle cx="0" cy="-24" r="5" fill="#A46E4C"></circle>
+<path d="M-5,-25 a5,5 0 0 1 10,0 z" fill="#2C2320"></path>
+<animateTransform attributeName="transform" type="translate" values="0,0; 0,-2.5; 0,0" dur="1.4s" repeatCount="indefinite"></animateTransform>
+</g>
+</g>
+<g id="p2">
+<ellipse cx="0" cy="0" rx="7" ry="3" fill="#414042" opacity=".16"></ellipse>
+<g>
+<rect x="-5" y="-19" width="10" height="17" rx="5" fill="currentColor"></rect>
+<circle cx="0" cy="-24" r="5" fill="#A46E4C"></circle>
+<path d="M-5,-25 a5,5 0 0 1 10,0 z" fill="#2C2320"></path>
+<animateTransform attributeName="transform" type="translate" values="0,0; 0,-3; 0,0" dur="1.9s" begin="-0.7s" repeatCount="indefinite"></animateTransform>
+</g>
 </g>
 <g id="cloud">
 <ellipse cx="0" cy="0" rx="60" ry="22"></ellipse>
 <ellipse cx="-38" cy="7" rx="34" ry="15"></ellipse>
 <ellipse cx="40" cy="8" rx="38" ry="15"></ellipse>
 </g>
+<g id="bird">
+<path d="M-10,0 Q-5,-6 0,0 Q5,-6 10,0" fill="none" stroke="#414042" stroke-width="2.4" stroke-linecap="round">
+<animate attributeName="d" values="M-10,0 Q-5,-7 0,0 Q5,-7 10,0; M-10,-3 Q-5,3 0,0 Q5,3 10,-3; M-10,0 Q-5,-7 0,0 Q5,-7 10,0" dur=".7s" repeatCount="indefinite"></animate>
+</path>
+</g>
 </defs>
 
-<rect x="0" y="0" width="3000" height="1800" fill="#DDE6D6"></rect>
+<rect x="0" y="0" width="3000" height="1800" fill="#EDEFF5"></rect>
 <rect x="0" y="0" width="3000" height="1800" fill="url(#dots)"></rect>
 
-<path d="M1880,900 C 2080,980 2220,880 2420,960 S 2800,1040 3000,1000" fill="none" stroke="#A9D0DC" stroke-width="26" stroke-linecap="round"></path>
-<ellipse cx="1700" cy="860" rx="230" ry="100" fill="#A9D0DC"></ellipse>
-<ellipse cx="1690" cy="852" rx="180" ry="74" fill="#BCDCE5"></ellipse>
+<path d="M1880,900 C 2080,980 2220,880 2420,960 S 2800,1040 3000,1000" fill="none" stroke="#9AD8E8" stroke-width="26" stroke-linecap="round"></path>
+<path d="M1880,900 C 2080,980 2220,880 2420,960 S 2800,1040 3000,1000" fill="none" stroke="#E3F5FA" stroke-width="4" stroke-linecap="round" stroke-dasharray="18 40">
+<animate attributeName="stroke-dashoffset" values="0;-232" dur="5s" repeatCount="indefinite"></animate>
+</path>
+<ellipse cx="1700" cy="860" rx="230" ry="100" fill="#8FD3E6"></ellipse>
+<ellipse cx="1690" cy="852" rx="180" ry="74" fill="#B5E3EF">
+<animate attributeName="rx" values="180;192;180" dur="6s" repeatCount="indefinite"></animate>
+<animate attributeName="ry" values="74;80;74" dur="6s" repeatCount="indefinite"></animate>
+</ellipse>
+<path d="M1620,840 h46 M1700,872 h34 M1740,826 h28" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round">
+<animate attributeName="opacity" values=".2;.9;.2" dur="3.4s" repeatCount="indefinite"></animate>
+</path>
 
 <use href="#mtn" transform="translate(1660,250) scale(.8)"></use>
 <use href="#mtn" transform="translate(1790,280) scale(.65)"></use>
 <use href="#mtn" transform="translate(2560,330) scale(.7)"></use>
 <use href="#tree" transform="translate(220,1000) scale(.8)"></use>
-<use href="#tree" transform="translate(262,1022) scale(.7)"></use>
-<use href="#tree" transform="translate(1460,690) scale(.8)"></use>
+<use href="#tree2" transform="translate(262,1022) scale(.7)"></use>
+<use href="#tree2" transform="translate(1460,690) scale(.8)"></use>
 <use href="#pine" transform="translate(2720,720)"></use>
 <use href="#pine" transform="translate(2748,740)"></use>
 <use href="#tree" transform="translate(2810,1620)"></use>
-<use href="#tree" transform="translate(1320,1660) scale(.8)"></use>
+<use href="#tree2" transform="translate(1320,1660) scale(.8)"></use>
 <use href="#pine" transform="translate(330,300)"></use>
 <use href="#pine" transform="translate(356,318)"></use>
 <use href="#tree" transform="translate(940,820) scale(.75)"></use>
 
-<path d="M520,560 C 820,600 1000,420 1300,420 C 1600,420 1800,600 2100,600 C 2400,600 2600,900 2520,1200 C 2440,1480 2000,1380 1720,1360 C 1440,1340 1180,1260 900,1260" fill="none" stroke="#B23A48" stroke-width="8" stroke-dasharray="2 22" stroke-linecap="round" opacity=".55"></path>
+<path d="M520,560 C 820,600 1000,420 1300,420 C 1600,420 1800,600 2100,600 C 2400,600 2600,900 2520,1200 C 2440,1480 2000,1380 1720,1360 C 1440,1340 1180,1260 900,1260" fill="none" stroke="#836AA3" stroke-width="8" stroke-dasharray="2 22" stroke-linecap="round" opacity=".6">
+<animate attributeName="stroke-dashoffset" values="0;-240" dur="8s" repeatCount="indefinite"></animate>
+</path>
 
 <g transform="translate(520,560)">
+<animateTransform attributeName="transform" type="translate" additive="sum" values="0,0; 0,-6; 0,0" dur="7s" repeatCount="indefinite"></animateTransform>
 <use href="#island"></use>
-<path d="M40,118 C 28,92 62,72 40,40" stroke="#E3D3AE" stroke-width="16" fill="none" stroke-linecap="round"></path>
+<path d="M40,118 C 28,92 62,72 40,40" stroke="#EDE4D3" stroke-width="16" fill="none" stroke-linecap="round"></path>
 <g transform="translate(-150,30)">
-<ellipse cx="0" cy="0" rx="10" ry="5" fill="#5E8C61"></ellipse>
-<ellipse cx="20" cy="10" rx="10" ry="5" fill="#5E8C61"></ellipse>
-<ellipse cx="40" cy="20" rx="10" ry="5" fill="#5E8C61"></ellipse>
-<ellipse cx="18" cy="-10" rx="10" ry="5" fill="#6FA070"></ellipse>
-<ellipse cx="38" cy="0" rx="10" ry="5" fill="#6FA070"></ellipse>
-<ellipse cx="58" cy="10" rx="10" ry="5" fill="#6FA070"></ellipse>
+<ellipse cx="0" cy="0" rx="10" ry="5" fill="#3E9E70"></ellipse>
+<ellipse cx="20" cy="10" rx="10" ry="5" fill="#3E9E70"></ellipse>
+<ellipse cx="40" cy="20" rx="10" ry="5" fill="#3E9E70"></ellipse>
+<ellipse cx="18" cy="-10" rx="10" ry="5" fill="#5DBF8B"></ellipse>
+<ellipse cx="38" cy="0" rx="10" ry="5" fill="#5DBF8B"></ellipse>
+<ellipse cx="58" cy="10" rx="10" ry="5" fill="#5DBF8B"></ellipse>
 </g>
 <use href="#tree" transform="translate(110,-60)"></use>
-<use href="#tree" transform="translate(-110,-50)"></use>
+<use href="#tree2" transform="translate(-110,-50)"></use>
 <use href="#tree" transform="translate(170,-5) scale(.85)"></use>
 <use href="#house" transform="translate(10,30)"></use>
-<circle cx="-60" cy="72" r="3.5" fill="#E2A93B"></circle>
-<circle cx="-50" cy="79" r="3.5" fill="#B23A48"></circle>
-<circle cx="-70" cy="81" r="3.5" fill="#E2A93B"></circle>
-<use href="#p" transform="translate(70,62)" color="#B23A48"></use>
-<use href="#p" transform="translate(88,70)" color="#3E7CA6"></use>
-<use href="#p" transform="translate(58,78) scale(.72)" color="#E2A93B"></use>
-<use href="#p" transform="translate(102,84) scale(.72)" color="#5E8C61"></use>
+<circle cx="-60" cy="72" r="3.5" fill="#F4B942"></circle>
+<circle cx="-50" cy="79" r="3.5" fill="#E2788A"></circle>
+<circle cx="-70" cy="81" r="3.5" fill="#F4B942"></circle>
+<use href="#p" transform="translate(70,62)" color="#836AA3"></use>
+<use href="#p2" transform="translate(88,70)" color="#50B8D4"></use>
+<use href="#p2" transform="translate(58,78) scale(.72)" color="#F4B942"></use>
+<use href="#p" transform="translate(102,84) scale(.72)" color="#5DBF8B"></use>
 </g>
 
 <g transform="translate(1300,420)">
+<animateTransform attributeName="transform" type="translate" additive="sum" values="0,0; 0,-5; 0,0" dur="8s" begin="-2s" repeatCount="indefinite"></animateTransform>
 <use href="#island"></use>
-<path d="M-40,112 C -46,84 -30,60 -36,22" stroke="#E3D3AE" stroke-width="16" fill="none" stroke-linecap="round"></path>
-<use href="#tree" transform="translate(130,-70)"></use>
+<path d="M-40,112 C -46,84 -30,60 -36,22" stroke="#EDE4D3" stroke-width="16" fill="none" stroke-linecap="round"></path>
+<use href="#tree2" transform="translate(130,-70)"></use>
 <use href="#tree" transform="translate(-150,-30)"></use>
-<use href="#tree" transform="translate(190,-10) scale(.85)"></use>
+<use href="#tree2" transform="translate(190,-10) scale(.85)"></use>
 <use href="#church" transform="translate(-20,20)"></use>
-<use href="#p" transform="translate(-90,48)" color="#7A4E8C"></use>
-<use href="#p" transform="translate(-72,58)" color="#E2A93B"></use>
-<use href="#p" transform="translate(40,60)" color="#B23A48"></use>
-<use href="#p" transform="translate(56,68)" color="#3E7CA6"></use>
-<use href="#van" transform="translate(100,70)"></use>
-<use href="#p" transform="translate(26,74) scale(.72)" color="#5E8C61"></use>
+<use href="#p" transform="translate(-90,48)" color="#836AA3"></use>
+<use href="#p2" transform="translate(-72,58)" color="#F4B942"></use>
+<use href="#p2" transform="translate(40,60)" color="#E2788A"></use>
+<use href="#p" transform="translate(56,68)" color="#50B8D4"></use>
+<use href="#van" transform="translate(100,70)">
+<animateTransform attributeName="transform" type="translate" additive="sum" values="0,0; 0,-1.5; 0,0" dur=".5s" repeatCount="indefinite"></animateTransform>
+</use>
+<use href="#p" transform="translate(26,74) scale(.72)" color="#5DBF8B"></use>
 </g>
 
 <g transform="translate(2100,600)">
+<animateTransform attributeName="transform" type="translate" additive="sum" values="0,0; 0,-6; 0,0" dur="9s" begin="-4s" repeatCount="indefinite"></animateTransform>
 <use href="#island"></use>
 <use href="#mtn" transform="translate(30,-40) scale(1.15)"></use>
 <use href="#mtn" transform="translate(-100,-5) scale(.95)"></use>
@@ -212,86 +266,106 @@ html{scroll-behavior:smooth}
 <use href="#pine" transform="translate(-165,35)"></use>
 <use href="#pine" transform="translate(175,35)"></use>
 <use href="#pine" transform="translate(90,45) scale(.85)"></use>
-<path d="M-170,30 C -110,10 -60,100 10,85 S 140,30 190,20" stroke="#6E6A66" stroke-width="22" fill="none" stroke-linecap="round"></path>
-<path d="M-170,30 C -110,10 -60,100 10,85 S 140,30 190,20" stroke="#F4EAD6" stroke-width="2" stroke-dasharray="8 10" fill="none"></path>
-<use href="#van" transform="translate(-34,96)" style="--body:#B23A48; --bodyShade:#8E2A37; --bodyTop:#C9586A"></use>
+<path d="M-170,30 C -110,10 -60,100 10,85 S 140,30 190,20" stroke="#6E6A78" stroke-width="22" fill="none" stroke-linecap="round"></path>
+<path d="M-170,30 C -110,10 -60,100 10,85 S 140,30 190,20" stroke="#FFFFFF" stroke-width="2" stroke-dasharray="8 10" fill="none"></path>
+<g transform="translate(-18,10)">
+<use href="#van" style="--body:#50B8D4; --bodyShade:#3797B2; --bodyTop:#7ACBE0">
+<animateMotion path="M-170,30 C -110,10 -60,100 10,85 S 140,30 190,20" dur="10s" repeatCount="indefinite"></animateMotion>
+<animate attributeName="opacity" values="0;1;1;0" keyTimes="0;.08;.92;1" dur="10s" repeatCount="indefinite"></animate>
+</use>
+</g>
 </g>
 
 <g transform="translate(2520,1200)">
+<animateTransform attributeName="transform" type="translate" additive="sum" values="0,0; 0,-5; 0,0" dur="7.5s" begin="-3s" repeatCount="indefinite"></animateTransform>
 <use href="#island"></use>
-<ellipse cx="-40" cy="62" rx="74" ry="30" fill="#E3D3AE"></ellipse>
+<ellipse cx="-40" cy="62" rx="74" ry="30" fill="#EDE4D3"></ellipse>
 <use href="#house" transform="translate(110,-50) scale(.85)"></use>
 <use href="#tree" transform="translate(-110,-40) scale(1.6)"></use>
 <use href="#house" transform="translate(160,0) scale(.85)"></use>
 <use href="#house" transform="translate(-170,20) scale(.8)"></use>
-<use href="#church" transform="translate(-10,20)" style="--wall:#E6C9A2; --wallShade:#C9A57C; --roof:#B5653F; --roofShade:#86452A"></use>
-<use href="#p" transform="translate(-80,50)" color="#B23A48"></use>
-<use href="#p" transform="translate(-62,58)" color="#E2A93B"></use>
-<use href="#p" transform="translate(-44,66)" color="#3E7CA6"></use>
-<use href="#p" transform="translate(-92,68)" color="#5E8C61"></use>
-<use href="#p" transform="translate(-26,74)" color="#7A4E8C"></use>
-<use href="#p" transform="translate(-66,84) scale(.72)" color="#D9733B"></use>
+<use href="#church" transform="translate(-10,20)" style="--wall:#F6EEE2; --wallShade:#DDCDB8; --roof:#5DBF8B; --roofShade:#2F8665"></use>
+<use href="#p" transform="translate(-80,50)" color="#836AA3"></use>
+<use href="#p2" transform="translate(-62,58)" color="#F4B942"></use>
+<use href="#p" transform="translate(-44,66)" color="#50B8D4"></use>
+<use href="#p2" transform="translate(-92,68)" color="#5DBF8B"></use>
+<use href="#p" transform="translate(-26,74)" color="#E2788A"></use>
+<use href="#p2" transform="translate(-66,84) scale(.72)" color="#414042"></use>
 </g>
 
 <g transform="translate(1720,1360)">
+<animateTransform attributeName="transform" type="translate" additive="sum" values="0,0; 0,-6; 0,0" dur="8.5s" begin="-1s" repeatCount="indefinite"></animateTransform>
 <use href="#island"></use>
-<ellipse cx="100" cy="48" rx="64" ry="28" fill="#E3D3AE"></ellipse>
-<use href="#tree" transform="translate(30,-90)"></use>
+<ellipse cx="100" cy="48" rx="64" ry="28" fill="#EDE4D3"></ellipse>
+<use href="#tree2" transform="translate(30,-90)"></use>
 <use href="#tree" transform="translate(-160,-20)"></use>
-<use href="#tree" transform="translate(180,-10) scale(.85)"></use>
+<use href="#tree2" transform="translate(180,-10) scale(.85)"></use>
 <use href="#school" transform="translate(-70,20)"></use>
-<use href="#p" transform="translate(100,30) scale(.75)" color="#E2A93B"></use>
-<use href="#p" transform="translate(75,40) scale(.75)" color="#B23A48"></use>
-<use href="#p" transform="translate(125,45) scale(.75)" color="#3E7CA6"></use>
-<circle cx="112" cy="56" r="6" fill="#FFFFFF" stroke="#1F2A2E" stroke-width="1.5"></circle>
-<use href="#p" transform="translate(95,62) scale(.75)" color="#5E8C61"></use>
-<use href="#p" transform="translate(50,64)" color="#7A4E8C"></use>
+<use href="#p" transform="translate(100,30) scale(.75)" color="#F4B942"></use>
+<use href="#p2" transform="translate(75,40) scale(.75)" color="#836AA3"></use>
+<use href="#p" transform="translate(125,45) scale(.75)" color="#50B8D4"></use>
+<circle cx="112" cy="56" r="6" fill="#FFFFFF" stroke="#414042" stroke-width="1.5">
+<animate attributeName="cy" values="56;40;56" keyTimes="0;.5;1" calcMode="spline" keySplines=".2 .7 .4 1; .6 0 .8 .3" dur="1s" repeatCount="indefinite"></animate>
+</circle>
+<use href="#p2" transform="translate(95,62) scale(.75)" color="#5DBF8B"></use>
+<use href="#p" transform="translate(50,64)" color="#E2788A"></use>
 </g>
 
 <g transform="translate(900,1260)">
+<animateTransform attributeName="transform" type="translate" additive="sum" values="0,0; 0,-5; 0,0" dur="7s" begin="-5s" repeatCount="indefinite"></animateTransform>
 <use href="#island"></use>
 <use href="#house" transform="translate(140,-40) scale(.85)"></use>
 <use href="#tree" transform="translate(-120,-40) scale(1.8)"></use>
 <use href="#house" transform="translate(190,10) scale(.8)"></use>
-<line x1="100" y1="-70" x2="100" y2="-142" stroke="#5A4636" stroke-width="3"></line>
-<path d="M-110,-118 Q 0,-80 100,-140" fill="none" stroke="#4A4038" stroke-width="1.5"></path>
-<circle cx="-80" cy="-108" r="9" fill="#F0C463" opacity=".35"></circle>
-<circle cx="-80" cy="-108" r="4" fill="#F0C463"></circle>
-<circle cx="-48" cy="-101" r="9" fill="#F0C463" opacity=".35"></circle>
-<circle cx="-48" cy="-101" r="4" fill="#F0C463"></circle>
-<circle cx="-16" cy="-99" r="9" fill="#F0C463" opacity=".35"></circle>
-<circle cx="-16" cy="-99" r="4" fill="#F0C463"></circle>
-<circle cx="16" cy="-103" r="9" fill="#F0C463" opacity=".35"></circle>
-<circle cx="16" cy="-103" r="4" fill="#F0C463"></circle>
-<circle cx="46" cy="-112" r="9" fill="#F0C463" opacity=".35"></circle>
-<circle cx="46" cy="-112" r="4" fill="#F0C463"></circle>
-<circle cx="74" cy="-124" r="9" fill="#F0C463" opacity=".35"></circle>
-<circle cx="74" cy="-124" r="4" fill="#F0C463"></circle>
-<use href="#p" transform="translate(-30,14)" color="#B23A48"></use>
-<use href="#p" transform="translate(0,4)" color="#E2A93B"></use>
-<use href="#p" transform="translate(35,4)" color="#3E7CA6"></use>
-<use href="#p" transform="translate(65,16)" color="#5E8C61"></use>
-<ellipse cx="15" cy="37" rx="64" ry="30" fill="#A87A48"></ellipse>
-<ellipse cx="15" cy="30" rx="64" ry="30" fill="#C9965F"></ellipse>
+<line x1="100" y1="-70" x2="100" y2="-142" stroke="#5E4C44" stroke-width="3"></line>
+<path d="M-110,-118 Q 0,-80 100,-140" fill="none" stroke="#414042" stroke-width="1.5"></path>
+<circle cx="-80" cy="-108" r="9" fill="#F4C766" opacity=".35"><animate attributeName="opacity" values=".15;.6;.15" dur="2s" repeatCount="indefinite"></animate></circle>
+<circle cx="-80" cy="-108" r="4" fill="#F4B942"></circle>
+<circle cx="-48" cy="-101" r="9" fill="#F4C766" opacity=".35"><animate attributeName="opacity" values=".15;.6;.15" dur="2s" begin="-.4s" repeatCount="indefinite"></animate></circle>
+<circle cx="-48" cy="-101" r="4" fill="#F4B942"></circle>
+<circle cx="-16" cy="-99" r="9" fill="#F4C766" opacity=".35"><animate attributeName="opacity" values=".15;.6;.15" dur="2s" begin="-.8s" repeatCount="indefinite"></animate></circle>
+<circle cx="-16" cy="-99" r="4" fill="#F4B942"></circle>
+<circle cx="16" cy="-103" r="9" fill="#F4C766" opacity=".35"><animate attributeName="opacity" values=".15;.6;.15" dur="2s" begin="-1.2s" repeatCount="indefinite"></animate></circle>
+<circle cx="16" cy="-103" r="4" fill="#F4B942"></circle>
+<circle cx="46" cy="-112" r="9" fill="#F4C766" opacity=".35"><animate attributeName="opacity" values=".15;.6;.15" dur="2s" begin="-1.6s" repeatCount="indefinite"></animate></circle>
+<circle cx="46" cy="-112" r="4" fill="#F4B942"></circle>
+<circle cx="74" cy="-124" r="9" fill="#F4C766" opacity=".35"><animate attributeName="opacity" values=".15;.6;.15" dur="2s" begin="-.2s" repeatCount="indefinite"></animate></circle>
+<circle cx="74" cy="-124" r="4" fill="#F4B942"></circle>
+<use href="#p" transform="translate(-30,14)" color="#836AA3"></use>
+<use href="#p2" transform="translate(0,4)" color="#F4B942"></use>
+<use href="#p" transform="translate(35,4)" color="#50B8D4"></use>
+<use href="#p2" transform="translate(65,16)" color="#5DBF8B"></use>
+<ellipse cx="15" cy="37" rx="64" ry="30" fill="#A88466"></ellipse>
+<ellipse cx="15" cy="30" rx="64" ry="30" fill="#C8A27E"></ellipse>
 <ellipse cx="-15" cy="26" rx="8" ry="4" fill="#FFFFFF"></ellipse>
 <ellipse cx="10" cy="17" rx="8" ry="4" fill="#FFFFFF"></ellipse>
 <ellipse cx="40" cy="20" rx="8" ry="4" fill="#FFFFFF"></ellipse>
 <ellipse cx="46" cy="38" rx="8" ry="4" fill="#FFFFFF"></ellipse>
 <ellipse cx="15" cy="45" rx="8" ry="4" fill="#FFFFFF"></ellipse>
 <ellipse cx="-16" cy="40" rx="8" ry="4" fill="#FFFFFF"></ellipse>
-<ellipse cx="15" cy="30" rx="12" ry="6" fill="#E2A93B"></ellipse>
-<use href="#p" transform="translate(-38,54)" color="#7A4E8C"></use>
-<use href="#p" transform="translate(72,50)" color="#3E7CA6"></use>
-<use href="#p" transform="translate(40,66)" color="#B23A48"></use>
-<use href="#p" transform="translate(2,68)" color="#D9733B"></use>
+<ellipse cx="15" cy="30" rx="12" ry="6" fill="#F4B942"></ellipse>
+<use href="#p2" transform="translate(-38,54)" color="#E2788A"></use>
+<use href="#p" transform="translate(72,50)" color="#50B8D4"></use>
+<use href="#p2" transform="translate(40,66)" color="#836AA3"></use>
+<use href="#p" transform="translate(2,68)" color="#414042"></use>
 </g>
 
-<use href="#cloud" transform="translate(300,200)" fill="#FFFFFF" opacity=".8"></use>
-<use href="#cloud" transform="translate(1040,170) scale(.8)" fill="#FFFFFF" opacity=".75"></use>
-<use href="#cloud" transform="translate(2700,420)" fill="#FFFFFF" opacity=".8"></use>
-<use href="#cloud" transform="translate(1230,930) scale(.9)" fill="#FFFFFF" opacity=".7"></use>
-<use href="#cloud" transform="translate(420,1620)" fill="#FFFFFF" opacity=".8"></use>
-<use href="#cloud" transform="translate(2280,1660) scale(1.1)" fill="#FFFFFF" opacity=".75"></use>
+<use href="#bird" transform="translate(0,0)">
+<animateMotion path="M-60,360 C 600,240 1200,300 1800,200 S 2700,260 3080,180" dur="28s" repeatCount="indefinite"></animateMotion>
+</use>
+<use href="#bird" transform="translate(26,14) scale(.8)">
+<animateMotion path="M-60,360 C 600,240 1200,300 1800,200 S 2700,260 3080,180" dur="28s" begin="-.6s" repeatCount="indefinite"></animateMotion>
+</use>
+<use href="#bird" transform="translate(0,0) scale(.9)">
+<animateMotion path="M3080,1100 C 2500,1000 2000,1120 1400,1040 S 500,1120 -60,1000" dur="34s" begin="-12s" repeatCount="indefinite"></animateMotion>
+</use>
+
+<use href="#cloud" transform="translate(300,200)" fill="#FFFFFF" opacity=".85"><animateTransform attributeName="transform" type="translate" additive="sum" values="0,0; 70,0; 0,0" dur="30s" repeatCount="indefinite"></animateTransform></use>
+<use href="#cloud" transform="translate(1040,170) scale(.8)" fill="#FFFFFF" opacity=".8"><animateTransform attributeName="transform" type="translate" additive="sum" values="0,0; -60,0; 0,0" dur="26s" repeatCount="indefinite"></animateTransform></use>
+<use href="#cloud" transform="translate(2700,420)" fill="#FFFFFF" opacity=".85"><animateTransform attributeName="transform" type="translate" additive="sum" values="0,0; 80,0; 0,0" dur="34s" begin="-8s" repeatCount="indefinite"></animateTransform></use>
+<use href="#cloud" transform="translate(1230,930) scale(.9)" fill="#FFFFFF" opacity=".75"><animateTransform attributeName="transform" type="translate" additive="sum" values="0,0; -70,0; 0,0" dur="28s" begin="-5s" repeatCount="indefinite"></animateTransform></use>
+<use href="#cloud" transform="translate(420,1620)" fill="#FFFFFF" opacity=".85"><animateTransform attributeName="transform" type="translate" additive="sum" values="0,0; 60,0; 0,0" dur="32s" begin="-12s" repeatCount="indefinite"></animateTransform></use>
+<use href="#cloud" transform="translate(2280,1660) scale(1.1)" fill="#FFFFFF" opacity=".8"><animateTransform attributeName="transform" type="translate" additive="sum" values="0,0; -80,0; 0,0" dur="36s" begin="-3s" repeatCount="indefinite"></animateTransform></use>
 </svg>
 </div>
 </div>
@@ -306,8 +380,8 @@ html{scroll-behavior:smooth}
 <a href="#escena-2" style="display: inline-flex; align-items: center; justify-content: center; min-height: 48px; padding: 0 22px; border-radius: 4px; background: #836AA3; color: #FFFFFF; font-weight: 700; text-decoration: none;">Recorrer la misión</a>
 <a href="#sumate" style="display: inline-flex; align-items: center; justify-content: center; min-height: 48px; padding: 0 22px; border-radius: 4px; background: transparent; color: #414042; font-weight: 700; text-decoration: none; box-shadow: inset 0 0 0 2px #414042;">Cómo apoyar</a>
 </div>
-<div class="sw-hero-photo" style="position: relative; width: 320px; padding-bottom: 30px;">
-<img src="assets/familia-2.webp" alt="David, Ruth, Lucas y Mateo Huanca Bravo de pie en su sala, junto al árbol de Navidad; Mateo sostiene a su cuy." style="display: block; width: 320px; height: 190px; object-fit: cover; object-position: 50% 30%;">
+<div class="sw-hero-photo" style="position: relative; width: min(480px, 100%); padding-bottom: 30px;">
+<img src="assets/familia-2.webp" alt="David, Ruth, Lucas y Mateo Huanca Bravo de pie en su sala, junto al árbol de Navidad; Mateo sostiene a su cuy." style="display: block; width: 100%; height: clamp(200px, 30vh, 290px); object-fit: cover; object-position: 50% 30%;">
 <div style="position: absolute; left: 0; bottom: 0; display: flex; flex-direction: column; align-items: flex-start;">
 <div style="padding: 8px 14px 7px; background: #414042; color: #FFFFFF; font-size: 14px; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase;">David y Ruth Huanca</div>
 <div style="padding: 5px 14px; background: #836AA3; color: #FFFFFF; font-size: 13px;">Lucas y Mateo</div>
@@ -325,8 +399,8 @@ html{scroll-behavior:smooth}
 <span style="padding: 6px 12px; border: 1.5px solid #414042; font-size: 13px; font-weight: 700; letter-spacing: 0.04em;">Premio Timoteo 2016</span>
 <span style="padding: 6px 12px; border: 1.5px solid #414042; font-size: 13px; font-weight: 700; letter-spacing: 0.04em;">Seminario Bíblico Nazareno</span>
 </div>
-<div class="sw-hero-photo" style="width: 300px;">
-<img src="assets/nosotros.webp" alt="David y Ruth abrazados y sonriendo en su sala." style="display: block; width: 300px; height: 180px; object-fit: cover; object-position: 50% 22%;">
+<div class="sw-hero-photo" style="width: min(460px, 100%);">
+<img src="assets/nosotros.webp" alt="David y Ruth abrazados y sonriendo en su sala." style="display: block; width: 100%; height: clamp(190px, 28vh, 280px); object-fit: cover; object-position: 50% 22%;">
 <div style="height: 6px; background: linear-gradient(90deg, #836AA3 0%, #5DBF8B 55%, #50B8D4 100%);"></div>
 </div>
 </div>
@@ -341,8 +415,8 @@ html{scroll-behavior:smooth}
 <span style="padding: 6px 12px; border: 1.5px solid #414042; font-size: 13px; font-weight: 700; letter-spacing: 0.04em;">85 distritos en la región</span>
 <span style="padding: 6px 12px; border: 1.5px solid #414042; font-size: 13px; font-weight: 700; letter-spacing: 0.04em;">Base en Chile</span>
 </div>
-<div class="sw-hero-photo" style="width: 300px;">
-<img src="assets/volcan-villarrica.webp" alt="El volcán Villarrica nevado sobre Pucón, en el sur de Chile, con una bandera chilena junto al lago." style="display: block; width: 300px; height: 170px; object-fit: cover; object-position: 50% 40%;">
+<div class="sw-hero-photo" style="width: min(460px, 100%);">
+<img src="assets/volcan-villarrica.webp" alt="El volcán Villarrica nevado sobre Pucón, en el sur de Chile, con una bandera chilena junto al lago." style="display: block; width: 100%; height: clamp(180px, 27vh, 270px); object-fit: cover; object-position: 50% 40%;">
 <div style="height: 6px; background: linear-gradient(90deg, #836AA3 0%, #5DBF8B 55%, #50B8D4 100%);"></div>
 </div>
 </div>
@@ -357,8 +431,8 @@ html{scroll-behavior:smooth}
 <span style="padding: 6px 12px; border: 1.5px solid #414042; font-size: 13px; font-weight: 700; letter-spacing: 0.04em;">Coordinación regional MNI</span>
 <span style="padding: 6px 12px; border: 1.5px solid #414042; font-size: 13px; font-weight: 700; letter-spacing: 0.04em;">200 líderes conectados</span>
 </div>
-<div class="sw-hero-photo" style="width: 300px;">
-<img src="assets/encuentro-mni-1.webp" alt="Mosaico de una videollamada con decenas de líderes de MNI de América del Sur." style="display: block; width: 300px; height: 170px; object-fit: cover;">
+<div class="sw-hero-photo" style="width: min(460px, 100%);">
+<img src="assets/encuentro-mni-1.webp" alt="Mosaico de una videollamada con decenas de líderes de MNI de América del Sur." style="display: block; width: 100%; height: clamp(180px, 27vh, 270px); object-fit: cover;">
 <div style="height: 6px; background: linear-gradient(90deg, #836AA3 0%, #5DBF8B 55%, #50B8D4 100%);"></div>
 </div>
 </div>
@@ -373,8 +447,8 @@ html{scroll-behavior:smooth}
 <span style="padding: 6px 12px; border: 1.5px solid #414042; font-size: 13px; font-weight: 700; letter-spacing: 0.04em;">Plataforma SGA</span>
 <span style="padding: 6px 12px; border: 1.5px solid #414042; font-size: 13px; font-weight: 700; letter-spacing: 0.04em;">NazConnect</span>
 </div>
-<div class="sw-hero-photo" style="width: 300px;">
-<img src="assets/esgrima-biblico.webp" alt="Transmisión en línea del Esgrima Bíblico Infantil Nacional de Chile, con niños de varios distritos conectados." style="display: block; width: 300px; height: 170px; object-fit: cover;">
+<div class="sw-hero-photo" style="width: min(460px, 100%);">
+<img src="assets/esgrima-biblico.webp" alt="Transmisión en línea del Esgrima Bíblico Infantil Nacional de Chile, con niños de varios distritos conectados." style="display: block; width: 100%; height: clamp(180px, 27vh, 270px); object-fit: cover;">
 <div style="height: 6px; background: linear-gradient(90deg, #836AA3 0%, #5DBF8B 55%, #50B8D4 100%);"></div>
 </div>
 </div>
@@ -389,8 +463,8 @@ html{scroll-behavior:smooth}
 <a href="#sumate" style="display: inline-flex; align-items: center; justify-content: center; min-height: 48px; padding: 0 22px; border-radius: 4px; background: #836AA3; color: #FFFFFF; font-weight: 700; text-decoration: none;">Apoyar la misión</a>
 <a href="#oracion" style="display: inline-flex; align-items: center; justify-content: center; min-height: 48px; padding: 0 22px; border-radius: 4px; background: transparent; color: #414042; font-weight: 700; text-decoration: none; box-shadow: inset 0 0 0 2px #414042;">Ver peticiones</a>
 </div>
-<div class="sw-hero-photo" style="width: 300px;">
-<img src="assets/fiestas-patrias-familia.webp" alt="La familia Huanca Bravo con ropa típica chilena en Fiestas Patrias, junto a una guitarra." style="display: block; width: 300px; height: 180px; object-fit: cover; object-position: 50% 30%;">
+<div class="sw-hero-photo" style="width: min(460px, 100%);">
+<img src="assets/fiestas-patrias-familia.webp" alt="La familia Huanca Bravo con ropa típica chilena en Fiestas Patrias, junto a una guitarra." style="display: block; width: 100%; height: clamp(190px, 28vh, 280px); object-fit: cover; object-position: 50% 30%;">
 <div style="height: 6px; background: linear-gradient(90deg, #836AA3 0%, #5DBF8B 55%, #50B8D4 100%);"></div>
 </div>
 </div>
