@@ -15,7 +15,9 @@
 <style>
 body{margin:0;background:#F7F7F7}
 a{color:#695683}a:hover{color:#4F3F66}
-@media (max-width: 860px){.sw-nav{display:none !important}.sw-brand-div{display:none !important}.sw-logo{width:130px !important}.sw-cta{min-height:40px !important;padding:0 14px !important;font-size:14px !important}.sw-rail{display:none !important}.sw-hint{display:none !important}.sw-hero{top:auto !important;bottom:24px !important;transform:none !important;width:calc(100% - 32px) !important}.sw-hero-photo{display:none !important}.sw-hero-title{font-size:34px !important}.sw-scrim{background:linear-gradient(0deg, rgba(247,247,247,0.97) 0%, rgba(247,247,247,0.92) 50%, rgba(247,247,247,0) 75%) !important}}
+@media (max-width: 860px){.sw-nav{display:none !important}.sw-brand-div{display:none !important}.sw-logo{width:130px !important}.sw-cta{min-height:40px !important;padding:0 14px !important;font-size:14px !important}.sw-rail{display:none !important}.sw-hint{display:none !important}.sw-hero{top:auto !important;bottom:24px !important;transform:none !important;width:calc(100% - 32px) !important}.sw-hero-title{font-size:34px !important}.sw-scrim{background:linear-gradient(0deg, rgba(247,247,247,0.97) 0%, rgba(247,247,247,0.92) 50%, rgba(247,247,247,0) 75%) !important}}
+.sw-bg{position:absolute;inset:0;z-index:1;pointer-events:none;transform-origin:0 50%}.sw-bg img{position:absolute;left:0;top:0;width:62%;height:100%;object-fit:cover;-webkit-mask-image:linear-gradient(90deg,#000 30%,rgba(0,0,0,.5) 62%,transparent 92%),linear-gradient(180deg,transparent 0%,#000 14%,#000 84%,transparent 100%);-webkit-mask-composite:source-in;mask-image:linear-gradient(90deg,#000 30%,rgba(0,0,0,.5) 62%,transparent 92%),linear-gradient(180deg,transparent 0%,#000 14%,#000 84%,transparent 100%);mask-composite:intersect}.sw-hero [data-hero]>:is(h1,h2,p){text-shadow:0 0 2px rgba(247,247,247,.9),0 0 14px rgba(247,247,247,.95),0 0 28px rgba(247,247,247,.8)}.sw-bg::after{content:"";position:absolute;inset:0;background:linear-gradient(90deg,rgba(247,247,247,.72) 0%,rgba(247,247,247,.5) 34%,rgba(247,247,247,.18) 50%,rgba(247,247,247,0) 60%)}
+@media (max-width: 860px){.sw-bg img{top:auto;bottom:0;width:100%;height:72%;-webkit-mask-image:linear-gradient(0deg,#000 45%,transparent 100%);-webkit-mask-composite:source-over;mask-image:linear-gradient(0deg,#000 45%,transparent 100%);mask-composite:add}.sw-bg::after{background:linear-gradient(0deg,rgba(247,247,247,.85) 0%,rgba(247,247,247,.68) 45%,rgba(247,247,247,0) 72%)}}
 html{scroll-behavior:smooth}
 @media (prefers-reduced-motion: reduce){html{scroll-behavior:auto}}
 </style>
@@ -370,22 +372,26 @@ html{scroll-behavior:smooth}
 </div>
 </div>
 <div class="sw-scrim" aria-hidden="true" style="position: absolute; inset: 0; z-index: 1; pointer-events: none; background: linear-gradient(90deg, rgba(247, 247, 247, 0.97) 0%, rgba(247, 247, 247, 0.9) 36%, rgba(247, 247, 247, 0) 60%);"></div>
+<div class="sw-bg" data-hero-bg=""><img src="assets/familia-2.webp" alt="David, Ruth, Lucas y Mateo Huanca Bravo de pie en su sala, junto al árbol de Navidad; Mateo sostiene a su cuy." decoding="async" style="object-position: 50% 30%;"></div>
+<div class="sw-bg" data-hero-bg="" style="opacity: 0; visibility: hidden;"><img src="assets/nosotros.webp" alt="David y Ruth abrazados y sonriendo en su sala." decoding="async" style="object-position: 50% 22%;"></div>
+<div class="sw-bg" data-hero-bg="" style="opacity: 0; visibility: hidden;"><img src="assets/volcan-villarrica.webp" alt="El volcán Villarrica nevado sobre Pucón, en el sur de Chile, con una bandera chilena junto al lago." decoding="async" style="object-position: 50% 40%;"></div>
+<div class="sw-bg" data-hero-bg="" style="opacity: 0; visibility: hidden;"><img src="assets/encuentro-mni-1.webp" alt="Mosaico de una videollamada con decenas de líderes de MNI de América del Sur." decoding="async"></div>
+<div class="sw-bg" data-hero-bg="" style="opacity: 0; visibility: hidden;"><img src="assets/esgrima-biblico.webp" alt="Transmisión en línea del Esgrima Bíblico Infantil Nacional de Chile, con niños de varios distritos conectados." decoding="async"></div>
+<div class="sw-bg" data-hero-bg="" style="opacity: 0; visibility: hidden;"><img src="assets/fiestas-patrias-familia.webp" alt="La familia Huanca Bravo con ropa típica chilena en Fiestas Patrias, junto a una guitarra." decoding="async" style="object-position: 50% 30%;"></div>
 
 <div class="sw-hero" style="position: absolute; z-index: 2; left: clamp(16px, 5vw, 72px); top: 50%; transform: translateY(-50%); width: min(600px, 48vw);">
 <div data-hero="" style="display: flex; flex-direction: column; align-items: flex-start; gap: 18px;">
+<p style="margin: 0 0 -4px; display: flex; align-items: center; gap: 10px; padding: 7px 14px 7px 12px; border-radius: 999px; background: rgba(247, 247, 247, 0.92); font-size: 16px; font-weight: 700; letter-spacing: 0.02em; color: #695683;"><span aria-hidden="true" style="width: 28px; height: 2px; background: #836AA3;"></span>Nuestro boletín · Septiembre 2026</p>
 <div style="padding: 5px 10px; background: #414042; font-size: 12px; font-weight: 700; letter-spacing: 0.14em; text-transform: uppercase; color: #FFFFFF;">01 · Misioneros en América del Sur</div>
 <h1 class="sw-hero-title" style="margin: 0; font-size: clamp(42px, 4.6vw, 66px); line-height: 1.02; font-weight: 900; letter-spacing: -0.015em; color: #414042;">Una familia sirviendo en América del Sur.</h1>
 <p style="margin: 0; max-width: 520px; font-size: 19px; line-height: 1.55; color: #4A4B4C;">Somos David, Ruth, Lucas y Mateo. Desde Chile servimos a la Iglesia del Nazareno en toda la región, convencidos de que el ministerio se vive en familia.</p>
 <div style="display: flex; flex-wrap: wrap; gap: 10px;">
 <a href="#escena-2" style="display: inline-flex; align-items: center; justify-content: center; min-height: 48px; padding: 0 22px; border-radius: 4px; background: #836AA3; color: #FFFFFF; font-weight: 700; text-decoration: none;">Recorrer la misión</a>
-<a href="#sumate" style="display: inline-flex; align-items: center; justify-content: center; min-height: 48px; padding: 0 22px; border-radius: 4px; background: transparent; color: #414042; font-weight: 700; text-decoration: none; box-shadow: inset 0 0 0 2px #414042;">Cómo apoyar</a>
+<a href="#sumate" style="display: inline-flex; align-items: center; justify-content: center; min-height: 48px; padding: 0 22px; border-radius: 4px; background: rgba(247, 247, 247, 0.85); color: #414042; font-weight: 700; text-decoration: none; box-shadow: inset 0 0 0 2px #414042;">Cómo apoyar</a>
 </div>
-<div class="sw-hero-photo" style="position: relative; width: min(480px, 100%); padding-bottom: 30px;">
-<img src="assets/familia-2.webp" alt="David, Ruth, Lucas y Mateo Huanca Bravo de pie en su sala, junto al árbol de Navidad; Mateo sostiene a su cuy." style="display: block; width: 100%; height: clamp(200px, 30vh, 290px); object-fit: cover; object-position: 50% 30%;">
-<div style="position: absolute; left: 0; bottom: 0; display: flex; flex-direction: column; align-items: flex-start;">
+<div style="display: flex; flex-direction: column; align-items: flex-start;">
 <div style="padding: 8px 14px 7px; background: #414042; color: #FFFFFF; font-size: 14px; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase;">David y Ruth Huanca</div>
 <div style="padding: 5px 14px; background: #836AA3; color: #FFFFFF; font-size: 13px;">Lucas y Mateo</div>
-</div>
 </div>
 </div>
 </div>
@@ -396,12 +402,8 @@ html{scroll-behavior:smooth}
 <h2 class="sw-hero-title" style="margin: 0; font-size: clamp(38px, 4vw, 58px); line-height: 1.04; font-weight: 900; letter-spacing: -0.015em; color: #414042;">Un ingeniero y una terapeuta, con un mismo llamado.</h2>
 <p style="margin: 0; max-width: 520px; font-size: 19px; line-height: 1.55; color: #4A4B4C;">David es ingeniero informático y ha servido en JNI y Comunicaciones a nivel distrital, nacional y regional. Ruth es terapeuta ocupacional y ha servido en discipulado, JNI y MNI. Ambos estudian en el Seminario Bíblico Nazareno.</p>
 <div style="display: flex; flex-wrap: wrap; gap: 8px;">
-<span style="padding: 6px 12px; border: 1.5px solid #414042; font-size: 13px; font-weight: 700; letter-spacing: 0.04em;">Premio Timoteo 2016</span>
-<span style="padding: 6px 12px; border: 1.5px solid #414042; font-size: 13px; font-weight: 700; letter-spacing: 0.04em;">Seminario Bíblico Nazareno</span>
-</div>
-<div class="sw-hero-photo" style="width: min(460px, 100%);">
-<img src="assets/nosotros.webp" alt="David y Ruth abrazados y sonriendo en su sala." style="display: block; width: 100%; height: clamp(190px, 28vh, 280px); object-fit: cover; object-position: 50% 22%;">
-<div style="height: 6px; background: linear-gradient(90deg, #836AA3 0%, #5DBF8B 55%, #50B8D4 100%);"></div>
+<span style="padding: 6px 12px; background: rgba(247, 247, 247, 0.85); border: 1.5px solid #414042; font-size: 13px; font-weight: 700; letter-spacing: 0.04em;">Premio Timoteo 2016</span>
+<span style="padding: 6px 12px; background: rgba(247, 247, 247, 0.85); border: 1.5px solid #414042; font-size: 13px; font-weight: 700; letter-spacing: 0.04em;">Seminario Bíblico Nazareno</span>
 </div>
 </div>
 </div>
@@ -412,12 +414,8 @@ html{scroll-behavior:smooth}
 <h2 class="sw-hero-title" style="margin: 0; font-size: clamp(38px, 4vw, 58px); line-height: 1.04; font-weight: 900; letter-spacing: -0.015em; color: #414042;">De Perú a Chile, y de Chile a toda Sudamérica.</h2>
 <p style="margin: 0; max-width: 520px; font-size: 19px; line-height: 1.55; color: #4A4B4C;">Hemos servido como misioneros en Perú y en Chile, y hoy tenemos una asignación regional. Las distancias son grandes y los desafíos muchos, pero creemos que vale la pena.</p>
 <div style="display: flex; flex-wrap: wrap; gap: 8px;">
-<span style="padding: 6px 12px; border: 1.5px solid #414042; font-size: 13px; font-weight: 700; letter-spacing: 0.04em;">85 distritos en la región</span>
-<span style="padding: 6px 12px; border: 1.5px solid #414042; font-size: 13px; font-weight: 700; letter-spacing: 0.04em;">Base en Chile</span>
-</div>
-<div class="sw-hero-photo" style="width: min(460px, 100%);">
-<img src="assets/volcan-villarrica.webp" alt="El volcán Villarrica nevado sobre Pucón, en el sur de Chile, con una bandera chilena junto al lago." style="display: block; width: 100%; height: clamp(180px, 27vh, 270px); object-fit: cover; object-position: 50% 40%;">
-<div style="height: 6px; background: linear-gradient(90deg, #836AA3 0%, #5DBF8B 55%, #50B8D4 100%);"></div>
+<span style="padding: 6px 12px; background: rgba(247, 247, 247, 0.85); border: 1.5px solid #414042; font-size: 13px; font-weight: 700; letter-spacing: 0.04em;">85 distritos en la región</span>
+<span style="padding: 6px 12px; background: rgba(247, 247, 247, 0.85); border: 1.5px solid #414042; font-size: 13px; font-weight: 700; letter-spacing: 0.04em;">Base en Chile</span>
 </div>
 </div>
 </div>
@@ -428,12 +426,8 @@ html{scroll-behavior:smooth}
 <h2 class="sw-hero-title" style="margin: 0; font-size: clamp(38px, 4vw, 58px); line-height: 1.04; font-weight: 900; letter-spacing: -0.015em; color: #414042;">Acompañar a quienes movilizan a la iglesia.</h2>
 <p style="margin: 0; max-width: 520px; font-size: 19px; line-height: 1.55; color: #4A4B4C;">Como coordinadora regional de MNI, Ruth acompaña a los líderes de cada distrito. El 28 de septiembre, un encuentro en línea reunió a 200 líderes con una visión: ser una región generosa con las misiones.</p>
 <div style="display: flex; flex-wrap: wrap; gap: 8px;">
-<span style="padding: 6px 12px; border: 1.5px solid #414042; font-size: 13px; font-weight: 700; letter-spacing: 0.04em;">Coordinación regional MNI</span>
-<span style="padding: 6px 12px; border: 1.5px solid #414042; font-size: 13px; font-weight: 700; letter-spacing: 0.04em;">200 líderes conectados</span>
-</div>
-<div class="sw-hero-photo" style="width: min(460px, 100%);">
-<img src="assets/encuentro-mni-1.webp" alt="Mosaico de una videollamada con decenas de líderes de MNI de América del Sur." style="display: block; width: 100%; height: clamp(180px, 27vh, 270px); object-fit: cover;">
-<div style="height: 6px; background: linear-gradient(90deg, #836AA3 0%, #5DBF8B 55%, #50B8D4 100%);"></div>
+<span style="padding: 6px 12px; background: rgba(247, 247, 247, 0.85); border: 1.5px solid #414042; font-size: 13px; font-weight: 700; letter-spacing: 0.04em;">Coordinación regional MNI</span>
+<span style="padding: 6px 12px; background: rgba(247, 247, 247, 0.85); border: 1.5px solid #414042; font-size: 13px; font-weight: 700; letter-spacing: 0.04em;">200 líderes conectados</span>
 </div>
 </div>
 </div>
@@ -444,12 +438,8 @@ html{scroll-behavior:smooth}
 <h2 class="sw-hero-title" style="margin: 0; font-size: clamp(38px, 4vw, 58px); line-height: 1.04; font-weight: 900; letter-spacing: -0.015em; color: #414042;">Herramientas digitales para formar y conectar.</h2>
 <p style="margin: 0; max-width: 520px; font-size: 19px; line-height: 1.55; color: #4A4B4C;">Con el Seminario Bíblico Nazareno de Chile, David desarrolló la plataforma SGA, que lleva la educación virtual a los 4 distritos del país. Pronto llega la App del Seminario, y NazConnect ya está en prueba para los equipos de toda la región.</p>
 <div style="display: flex; flex-wrap: wrap; gap: 8px;">
-<span style="padding: 6px 12px; border: 1.5px solid #414042; font-size: 13px; font-weight: 700; letter-spacing: 0.04em;">Plataforma SGA</span>
-<span style="padding: 6px 12px; border: 1.5px solid #414042; font-size: 13px; font-weight: 700; letter-spacing: 0.04em;">NazConnect</span>
-</div>
-<div class="sw-hero-photo" style="width: min(460px, 100%);">
-<img src="assets/esgrima-biblico.webp" alt="Transmisión en línea del Esgrima Bíblico Infantil Nacional de Chile, con niños de varios distritos conectados." style="display: block; width: 100%; height: clamp(180px, 27vh, 270px); object-fit: cover;">
-<div style="height: 6px; background: linear-gradient(90deg, #836AA3 0%, #5DBF8B 55%, #50B8D4 100%);"></div>
+<span style="padding: 6px 12px; background: rgba(247, 247, 247, 0.85); border: 1.5px solid #414042; font-size: 13px; font-weight: 700; letter-spacing: 0.04em;">Plataforma SGA</span>
+<span style="padding: 6px 12px; background: rgba(247, 247, 247, 0.85); border: 1.5px solid #414042; font-size: 13px; font-weight: 700; letter-spacing: 0.04em;">NazConnect</span>
 </div>
 </div>
 </div>
@@ -461,11 +451,7 @@ html{scroll-behavior:smooth}
 <p style="margin: 0; max-width: 520px; font-size: 19px; line-height: 1.55; color: #4A4B4C;">Este ministerio avanza gracias a personas que oran, ofrendan y se suman al llamado. Elige cómo caminar con nosotros.</p>
 <div style="display: flex; flex-wrap: wrap; gap: 10px;">
 <a href="#sumate" style="display: inline-flex; align-items: center; justify-content: center; min-height: 48px; padding: 0 22px; border-radius: 4px; background: #836AA3; color: #FFFFFF; font-weight: 700; text-decoration: none;">Apoyar la misión</a>
-<a href="#oracion" style="display: inline-flex; align-items: center; justify-content: center; min-height: 48px; padding: 0 22px; border-radius: 4px; background: transparent; color: #414042; font-weight: 700; text-decoration: none; box-shadow: inset 0 0 0 2px #414042;">Ver peticiones</a>
-</div>
-<div class="sw-hero-photo" style="width: min(460px, 100%);">
-<img src="assets/fiestas-patrias-familia.webp" alt="La familia Huanca Bravo con ropa típica chilena en Fiestas Patrias, junto a una guitarra." style="display: block; width: 100%; height: clamp(190px, 28vh, 280px); object-fit: cover; object-position: 50% 30%;">
-<div style="height: 6px; background: linear-gradient(90deg, #836AA3 0%, #5DBF8B 55%, #50B8D4 100%);"></div>
+<a href="#oracion" style="display: inline-flex; align-items: center; justify-content: center; min-height: 48px; padding: 0 22px; border-radius: 4px; background: rgba(247, 247, 247, 0.85); color: #414042; font-weight: 700; text-decoration: none; box-shadow: inset 0 0 0 2px #414042;">Ver peticiones</a>
 </div>
 </div>
 </div>
@@ -759,7 +745,7 @@ html{scroll-behavior:smooth}
 <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 28px;">
 <div style="display: flex; flex-direction: column; gap: 10px;">
 <img src="assets/logo-nazareno.svg" alt="Iglesia del Nazareno" style="display: block; width: 240px; max-width: 100%; height: auto;">
-<div style="font-family: 'Lato', system-ui, sans-serif; font-size: 22px; font-weight: 600;">Misión Huanca Bravo</div>
+<div style="font-family: 'Lato', system-ui, sans-serif; font-size: 22px; font-weight: 600;">Familia Huanca Bravo</div>
 <p style="margin: 0; font-size: 15px; line-height: 1.55; color: #4A4B4C;">Misioneros de la Iglesia del Nazareno sirviendo en la Región América del Sur desde Chile.</p>
 </div>
 <div style="display: flex; flex-direction: column; gap: 8px; font-size: 15px;">
@@ -767,13 +753,8 @@ html{scroll-behavior:smooth}
 <a href="mailto:rhuanca@samnaz.org" style="padding: 4px 0;">Ruth · rhuanca@samnaz.org</a>
 <a href="mailto:dhuanca@samnaz.org" style="padding: 4px 0;">David · dhuanca@samnaz.org</a>
 </div>
-<div style="display: flex; flex-direction: column; gap: 8px; font-size: 15px;">
-<div style="font-weight: 700;">Síguenos</div>
-<a href="#contacto">[Instagram]</a>
-<a href="#contacto">[Facebook / YouTube]</a>
 </div>
-</div>
-<div style="padding-top: 20px; border-top: 1px solid #DEDFE0; font-size: 14px; color: #686E77;">© 2026 Misión Huanca Bravo</div>
+<div style="padding-top: 20px; border-top: 1px solid #DEDFE0; font-size: 14px; color: #686E77;">© 2026 Familia Huanca Bravo</div>
 </footer>
 </div>
 <script src="scroll-world.js" defer></script>

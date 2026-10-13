@@ -33,5 +33,4 @@ Cada push a la rama de producción vuelve a publicar el sitio.
 ## Pendiente
 
 - Enlace de donación: el botón «Dar ahora» y el reverso de la tarjeta de oración.
-- Enlaces a redes sociales en el pie de página.
 - El formulario «Suscribirme» solo es visual y todavía no envía correos.

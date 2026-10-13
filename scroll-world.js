@@ -12,6 +12,7 @@
   var hint = document.getElementById('sw-hint');
   if (!track || !stage || !plane) return;
   var heroes = stage.querySelectorAll('[data-hero]');
+  var bgs = stage.querySelectorAll('[data-hero-bg]');
   var railButtons = stage.querySelectorAll('.sw-rail button[data-i]');
   var anchors = track.querySelectorAll('[data-card]');
 
@@ -60,6 +61,11 @@
       heroes[h].style.opacity = String(op);
       heroes[h].style.transform = 'translateY(' + ((d > 0 ? -1 : 1) * (1 - op) * 28) + 'px)';
       heroes[h].style.visibility = op < 0.01 ? 'hidden' : 'visible';
+      if (bgs[h]) {
+        bgs[h].style.opacity = String(op);
+        bgs[h].style.transform = 'scale(' + (1.06 - 0.06 * op) + ')';
+        bgs[h].style.visibility = op < 0.01 ? 'hidden' : 'visible';
+      }
     }
 
     var a = Math.min(5, Math.floor((u + 0.35) / STEP));
